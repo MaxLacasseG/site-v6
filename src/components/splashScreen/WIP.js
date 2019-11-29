@@ -17,7 +17,7 @@ export class Wip extends Component {
                 </div>
                 <div className="logo">
                     <WS.H6>
-                        <AnchorLink href="#home">ArrowDown</AnchorLink>
+                        <AnchorLink href="#contact">ArrowDown</AnchorLink>
                     </WS.H6>
                 </div>
             </WS.Main>

@@ -1,6 +1,7 @@
 export default {
     colorBgMain: "black",
     colorBgAccent: "red",
+    colorBgAccent2: "#950471",
     colorMain: "white",
     colorAccent: "redorange",
     colorAccent2: "gold",

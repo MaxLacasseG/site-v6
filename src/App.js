@@ -7,6 +7,7 @@ import { ThemeProvider } from "styled-components";
 import Home from "./components/splashScreen/Home";
 import Features from "./components/splashScreen/Features";
 import Wip from "./components/splashScreen/WIP";
+import Contact from "./components/splashScreen/Contact";
 import theme from "./components/styledComponents/theme";
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
                                 <Home />
                                 <Features />
                                 <Wip />
+                                <Contact />
                             </Route>
                         </Switch>
                     </div>
