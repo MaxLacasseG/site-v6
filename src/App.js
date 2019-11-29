@@ -5,6 +5,8 @@ import store from "./store/store";
 import { ThemeProvider } from "styled-components";
 //Routes
 import Home from "./components/splashScreen/Home";
+import Features from "./components/splashScreen/Features";
+import Wip from "./components/splashScreen/WIP";
 import theme from "./components/styledComponents/theme";
 function App() {
     return (
@@ -15,6 +17,8 @@ function App() {
                         <Switch>
                             <Route path="/">
                                 <Home />
+                                <Features />
+                                <Wip />
                             </Route>
                         </Switch>
                     </div>
